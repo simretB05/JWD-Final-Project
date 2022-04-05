@@ -14,3 +14,8 @@ padding: 0;
     width: 209px;
     height: 115px;
 }
+.hero {
+    background-color: blue;
+    width: 100%;
+    height: 200px;
+}
