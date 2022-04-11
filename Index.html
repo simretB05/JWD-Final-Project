@@ -11,7 +11,7 @@
 <header class="header">
     <img  class="header_img" src="./images/logo.png" alt="logo">
     <nav class="navbar">
-        <ul class="navbar_list">
+        <ul class="navbar_list"
             <li class="navbar_list_items"><a class="navbar-list-item-link" href="#">Home</a></li>
             <li class="navbar_list_items"><a class="navbar-list-item-link" href="#">Menue</a></li>
             <li class="navbar_list_items"><a class="navbar-list-item-link" href="#">Task Manager</a></li>
@@ -21,7 +21,72 @@
         <p class="login-text">Log in</p>
         <div class="avatar"><img class="avatar" src="./images/avatar.webp" alt="avatar img"></div>
     </div>
-</header>
-    
-</body>
+   </header>
+<div class="hero">
+    <div class="form-container">
+        <form class="form">
+            <h3>Find your new home</h3>
+              <div class="button-container">
+                <a href="#" class="btn">Rent</a>
+                <a href=o"#" class="btn">Sale</a>
+              </div>
+            <label for="Location">--City--</label>
+              <br>
+            <select id="City" name="City" required>
+                <option value="Seattle">Seattle</option>
+                <option value="Tampa">Tampa</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="New Orleans">New Orleans</option>
+                <option value="Pittsburgh">Pittsburgh</option>
+              </select>
+              <br>
+            <label for="Estate-type">--Type--</label>
+              <br>
+            <select id="Type" name="Type" required>
+                <option value="Condo">Condo</option>
+                <option value="Duplex">Duplex</option>
+                <option value="Apartment">Apratment</option>
+                <option value="Single-Family">Single-Family</option>
+            </select>
+              <br>     
+            <label for="Assignee">--Agent--</label>
+              <br>
+            <select id="Agent" name="Agent" required>
+                <option value="Ayanna">Ayanna</option>
+                <option value="Simret">Simret</option>
+                <option value="Duril">Duril</option>
+                <option value="Lala">Lala</option>
+            </select>
+              <br>
+              <label for "Amenities">--Amenities--</label>
+              <br>
+              <select id="Amenities" name="Amenities" required>
+                <option value="Swimming Pool">Swimming Pool</option>
+                <option value="Air Condition">Air Condition</option>
+                <option value="Playground">Playground</option>
+                <option value="All">All</option>
+            </select>
+              <br>
+              <label for "Bedrooms">--Bedrooms--</label>
+              <br>
+              <select id="Bedrooms" name="Bedrooms" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+             <br>
+             <label for "Bathrooms">--Bathrooms--</label>
+             <br>
+             <select id="Bathromms" name="Bathrooms" required>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+           </select>
+             <br>
+        <input class="Submit" type="button" value="Submit"></input>
+        </form>
+      </div>
+     </div>
+ </body>
 </html>
