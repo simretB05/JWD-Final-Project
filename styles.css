@@ -16,7 +16,6 @@ padding: 0;
     height: 115px;
 }
 .navbar {
-    border: 2px solid green;
     width: 50%;
     position: absolute;
     top: 39px;
@@ -25,7 +24,6 @@ padding: 0;
 }
 .navbar_list {
     margin: 0 auto;
-    border: 2px solid purple;
     width: 100%;
     list-style: none;
     display: block;
@@ -54,35 +52,27 @@ padding: 0;
     border-bottom: 3px solid white;
     
 }
-
+.login-container {
+    width: 33%;
+    position: absolute;
+    left: 83%;
+    top: 44%;
+    
+    
+}
 .login-text {
-    border: 2px solid gold;
     font-size: 20px;
     color: white;
-    width: 75%;
-    
-    
+    width: 11%;
+    margin:0;
+display: inline;
 }
 
     
 .avatar {
-    border: 2px solid red;
-    width: 55%;
-
-
+    width: 5%;
+    display: inline;
 }
-
-.login-container {
-    border: 2px solid pink;
-    width: 6%;
-    position: absolute;
-    left: 83%;
-    top: 44%;
-    display: inline-block;
-    
-    
-}
-
 .navbar_list_items {
     margin-bottom: .5rem;
 
